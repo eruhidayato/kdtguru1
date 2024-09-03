@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Embed</title>
     <style>
-        body {
+        html, body {
             margin: 0;
             padding: 0;
+            height: 100%;
+            overflow: hidden; /* Menghilangkan scrollbar pada halaman */
         }
         iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            height: 100vh;
-            border: none;
+            height: 100%;
+            border: none; /* Menghilangkan border pada iframe */
         }
     </style>
+    <title>Website Clone</title>
 </head>
 <body>
-    <iframe src="https://script.google.com/macros/s/AKfycbxVVVVH7m5rmXzwkeqOQdUtbpyLfB2BF0qzsV1jiBN4xZfFrGYjF2bFbMETMtLesqdg0Q/exec" frameborder="0"></iframe>
+    <iframe src="https://script.google.com/macros/s/AKfycbxVVVVH7m5rmXzwkeqOQdUtbpyLfB2BF0qzsV1jiBN4xZfFrGYjF2bFbMETMtLesqdg0Q/exec"></iframe>
 </body>
 </html>
